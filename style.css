@@ -1,0 +1,81 @@
+body{
+    font-family: fantasy;
+    background-image: url(../background_viking.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.its-war {
+    display: flex;
+    justify-content: center;
+    font-size: 3.8em;
+}
+
+#containerViking {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #f3f3f3ba, #8e9eab1c); 
+    padding-top: 28px;
+    margin-bottom: 40px;
+}
+
+
+#viking-title {
+    border: 1px solid black;
+}
+
+#containerSaxon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #f3f3f3ba, #8e9eab1c); 
+    padding-top: 28px;
+}
+
+.viking{
+  margin: 0 50px 0 50px;
+  visibility: hidden;
+}
+
+.saxon{
+    margin: 0 50px 0 50px;
+    visibility: hidden;
+}
+
+
+.viking > img{
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+}
+.saxon img {
+    width: 100px;
+    border: 1px solid black;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.attack-btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+    visibility: hidden;
+}
+
+.attack-btn button {
+    width: 200px;
+    height: 100px;
+    font-family: fantasy;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 6px;
+    border: 1.5px solid black;
+    background: linear-gradient(to bottom, #ffffff, #abbaab); 
+}
